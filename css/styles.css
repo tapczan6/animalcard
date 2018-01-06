@@ -1,15 +1,30 @@
 /* add your CSS here */
 
 body {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Lato', sans-serif;
       color: #222;
       
     }
-.card {
-      height: 600px;
-      width: 400px;
-      color: blue;
+
+#card {
+    width: 300px;
+    border: 1px solid green;
+    padding: 15px;
+    margin: 25px;
+    color: red;
+    
 }
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+
+}
+
 .fact {
     color: yellow;
+    font-style: italic;
 }
