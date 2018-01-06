@@ -1,0 +1,15 @@
+/* add your CSS here */
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      color: #222;
+      
+    }
+.card {
+      height: 600px;
+      width: 400px;
+      color: blue;
+}
+.fact {
+    color: yellow;
+}
