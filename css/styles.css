@@ -3,28 +3,50 @@
 body {
       font-family: 'Lato', sans-serif;
       color: #222;
-      
     }
 
 #card {
     width: 300px;
-    border: 1px solid green;
-    padding: 15px;
-    margin: 25px;
-    color: red;
-    
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
 }
-
+.card {
+    background-color: #FBF7F2;
+    width: 300px;
+    border: 1px;
+    padding: 0.1em 1em 1em;
+    margin: 15px;
+    color: #393642;
+    box-shadow: 2px 2px 10px #8888886c;
+}
 h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    color: blue;
-
+    color: #82646E;
 }
 
 .fact {
-    color: yellow;
+    color: #5B5361;
     font-style: italic;
+}
+.text {
+    text-align: justify;
+    border: 1px solid rgb(230, 224, 219);
+    padding: 1px 10px 1px;
+}
+ul {
+    list-style: none;
+    color: rgba(91, 83, 97, 0.815);
+    
+}
+span {
+    font-weight: bold;
+    color: black;
+}
+img {
+    border-radius: 5px;
+    padding: 1px 1px 1em;
 }
